@@ -28,5 +28,7 @@ await test.Run();
 
 await host.StopAsync();
 
-
+//https://refitter.github.io/articles/cli-tool.html
 //refitter --cancellation-tokens --namespace RefitConsole.Services --output ./RefitConsole/Services/IBuildVersionsApi2.cs https://localhost:7242/swagger/v1/swagger.json
+
+//https://github.com/reactiveui/refit
