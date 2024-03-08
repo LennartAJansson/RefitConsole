@@ -29,4 +29,4 @@ await test.Run();
 await host.StopAsync();
 
 
-//refitter --cancellation-tokens --output ./RefitConsole/Services/IBuildVersionsApi.cs https://localhost:7242/swagger/v1/swagger.json
+//refitter --cancellation-tokens --namespace RefitConsole.Services --output ./RefitConsole/Services/IBuildVersionsApi2.cs https://localhost:7242/swagger/v1/swagger.json
